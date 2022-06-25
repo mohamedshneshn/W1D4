@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://assets.aaonline.io/fullstack/html-css/assets/css_reset.css">
+    <script src="https://assets.aaonline.io/fullstack/html-css/assets/external_javascript_example.js"></script>
+    <title>Recipe of Mansaf</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="data:image/png;base64,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"
+        alt=""
+        srcset=""
+      />
+      <nav>
+        <ul>
+          <li><a href="#description">Description</a></li>
+          <li><a href="#ingredients">Ingredients</a></li>
+          <li><a href="#directions">Directions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+        <h2 id="ingredients">Ingredients</h2>
+        <ul>
+            <li>1 tbsp olive oil</li>
+            <li>1/2 medium brown or white onion, peeled and diced</li>
+            <li>1 clove garlic, minced</li>
+            <li>1 medium green or red bell pepper, chopped</li>
+            <li>4 cups ripe diced tomatoes, or 2 cans (14 oz. each) diced tomatoes</li>
+            <li>2 tbsp tomato paste</li>
+            <li>1 tsp chili powder (mild)</li>
+            <li>1 tsp cumin</li>
+            <li>1 tsp paprika</li>
+            <li>Pinch of cayenne pepper (or more to taste-- spicy!)</li>
+            <li>Pinch of sugar (optional, to taste)</li>
+            <li>Salt and pepper to taste</li>
+            <li>5-6 eggs</li>
+            <li>1/2 tbsp fresh chopped parsley (optional, for garnish)</li>
+    </aside>
+    
+   <section>
+    <h1>Mansaf</h1>
+    <figure>
+        <img
+        src="https://upload.wikimedia.org/wikipedia/commons/8/86/Mansaf%2C_the_traditional_dish_of_Jordan.jpg"
+        alt="not avalibale"
+        srcset=""
+      />
+      <figcaption>
+        <a href="https://en.wikipedia.org/wiki/Mansaf">Mansaf on wikipedia</a>
+    </figcaption>
+    </figure>
+    <h2>Description</h2>
+    <p>
+      Mansaf is a traditional Arab dish made of lamb cooked in a sauce of
+      fermented dried yogurt and served with rice or bulgur
+    </p>
+    
+   
+
+  
+    <h2>Directions</h2>
+    <ol>
+      <li>
+        Heat the olive oil in a large skillet over medium-high heat. Add the
+        onion and garlic and cook until soft, about 5 minutes.
+      </li>
+      <li>Add the lamb and cook until browned, about 5 minutes.</li>
+      <li>
+        Add the bulgur and cook until the bulgur is tender, about 5 minutes.
+      </li>
+      <li>Add the rice and cook until the rice is tender, about 5 minutes.</li>
+      <li>
+        Add the yogurt and cook until the yogurt is tender, about 5 minutes.
+      </li>
+      <li>
+        Add the salt, pepper, cumin, paprika, cayenne, sugar, and cook until the
+        sauce is thick and the lamb is cooked, about 5 minutes.
+      </li>
+      <li>
+        Add the tomato paste and chili powder and cook until the sauce is thick,
+        about 5 minutes.
+      </li>
+      <li>Serve the sauce over the lamb and rice.</li>
+    </ol>
+
+   </section>
+
+   <!-- --------------------------forms--------------------------------- -->
+ <section>
+    <form action="/reviews">
+        <label for="1">NAME</label>
+        <input type="text" id="1">
+        <label>RATING</label>
+        1<input type="radio" name="Rating" value="1" checked>
+        2<input type="radio" name="Rating" value="2">
+        3<input type="radio" name="Rating" value="3">
+        4<input type="radio" name="Rating" value="4">
+        5<input type="radio" name="Rating" value="5">
+        <label for="expertise">Cooking Expertise</label>
+
+        <select id="expertise" name="expertise">
+          <option value="Select Cooking Expertise" disabled selected >Select Cooking Experise</option>
+
+          <option value="Sometimes Cook">Sometimes Cook</option>
+
+          <option value="Cook Everyday">Cook Everyday</option>
+
+          <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+        <label>Review
+            <textarea id="review" name="review"></textarea>
+          </label>
+        <button type="submit">Submit</button>
+    </form>
+ </section>
+ <!-- -------------------------footer--------------------------------------------- -->
+    <footer>
+        <p>
+            Original Recipe by
+            <a href="https://en.wikipedia.org/wiki/Mansaf#References">Jordan</a>
+          </p>
+    </footer>
+    
+ 
+    
+  </body>
+</html>
+<!-- ------------------------------------------------------------------------------------  -->
